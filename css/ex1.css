@@ -1,0 +1,75 @@
+body{
+	text-align: center; /* 文字置中 */
+    background-color: #fee0ee; /* 背景顏色 */
+    color: #5a5a5a; /*文字顏色*/
+    padding: 0; /*去除邊框*/
+	margin: 0; /*去除邊框*/
+
+}
+
+/*nav 整條欄位顏色*/
+nav{
+	background: #ffb7d9;
+}
+
+/*nav a 針對文字底色更改*/
+nav a{
+	background: #fca2cc;
+    padding: 20px;
+    display: inline-block;
+
+    color: #fff8fb;
+    text-decoration: none; /*文字去除底線 需要底線的話就不須加上此指令 原先設定就包含底線*/
+
+}
+/*nav a hover 滑鼠滑過去的模式*/
+nav a:hover{
+	background: #fffefb;
+	color: #5a5a5a;
+}
+
+/*section*/
+section{
+	width: 80%; /*視窗的80%*/
+	margin: auto; /*物件置中*/
+}
+
+
+/* article對應位置 */
+article{
+	display: inline-block;
+	border:solid 1px rgba(80, 80, 80, 0.2);
+    width: 200px;
+	margin: 15px; /* 兩張卡的間距*/
+}
+
+article img{
+	width: 80%; /*圖片寬*/
+	border-radius: 50%; /*導R角 正方形才能變圓形*/
+}
+/*滑鼠滑過去的模式*/
+article a:hover{
+	color:#ffffff;
+	background: #fca2cc;
+}
+/*滑鼠點擊的模式*/
+article a:active{
+	color:#5a5a5a;
+	background: #ff62ab;
+
+}
+
+article a{
+	display: inline-block;
+	color:#5a5a5a;
+	background: #ffffff;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+
+/*最下面那行*/
+footer{
+	margin:50px;
+}
+
