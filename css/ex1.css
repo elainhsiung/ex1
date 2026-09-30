@@ -40,7 +40,7 @@ article{
 	display: inline-block;
 	border:solid 1px rgba(80, 80, 80, 0.2);
     width: 200px;
-	margin: 15px; /* 兩張卡的間距*/
+	margin: 12px; /* 兩張卡的間距*/
 }
 
 article img{
