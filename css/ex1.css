@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+
+
 body{
 	text-align: center; /* 文字置中 */
     background-color: #fee0ee; /* 背景顏色 */
     color: #5a5a5a; /*文字顏色*/
     padding: 0; /*去除邊框*/
 	margin: 0; /*去除邊框*/
+	 font-family: "Chiron GoRound TC", sans-serif;
 
 }
 
